@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 body{
     height: 100vh;
@@ -221,6 +222,7 @@ a{
     display: flex;
     justify-content: space-between;
     background-color: #fff;
+    transition: 0.3s;
 }
 .blog-card:hover{
     transform: scale(0.98);
@@ -259,7 +261,7 @@ a{
     text-decoration: none;
     color: #333;
     font-size: 1em;
-    transition: background-color 0.3s ease;
+    transition:  0.5s ease;
     margin-bottom: 10%;
 }
 .blog-content .read-more:hover{
@@ -308,6 +310,7 @@ a{
     align-items: center;
     opacity: 0;
     transition: opacity 1s ease;
+    /* transition: 0.3s; */
 }
 .work-item .overlay h3 {
     font-size: 1.2em;
